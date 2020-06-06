@@ -32,6 +32,6 @@ jobs:
       uses: npm install --global surge
      
     - name: deploy website with surge
-      uses: surge ./ bootcamp2020class001.surge.sh --token ${{secrets.SURGE}}
+      uses: surge ./ bootcamp2020class001.surge.sh --token ${{secrets.ABC}}
 
    
